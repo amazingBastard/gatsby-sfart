@@ -1,6 +1,6 @@
-# gatsby-anyuza.me
+# gatsby-sfart
 
-A portfolio for the art of Anyuza Lukmanova.
+A collection of science fiction and fantasy art pulled from /r/sfart subreddit.
 
 ## Running in development
 `gatsby develop`
