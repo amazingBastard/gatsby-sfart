@@ -1,0 +1,24 @@
+/* hero container */
+.hero.section {
+	position: relative;
+	margin: 0 auto;
+	padding: 0.83333rem;
+}
+
+/* hero image */
+.hero.section .image {
+	box-shadow: 0.5em 0.5em 0 0 #000;
+  border: 0.25em solid #222;
+}
+
+/* hero title */
+.hero.section .title {
+	margin: 1rem auto;
+}
+
+/* hero title sub */
+.hero.section .title .sub {
+	display: block;
+	color: #777;
+	font-size: 50%;
+}

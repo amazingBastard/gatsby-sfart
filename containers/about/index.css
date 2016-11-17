@@ -1,0 +1,31 @@
+.about.section .markdown.article .list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	margin-left: -1em;
+	padding: 0;
+	list-style: none;
+}
+
+.about.section .markdown.article .list li {
+	flex: 1;
+	padding-left: 1em;
+}
+
+.about.section .markdown.article .list li a {
+	display: block;
+  padding: 0.5em;
+  border: 0.15em solid #222;
+  box-shadow: 0.25em 0.25em 0 0 #000;
+	background-color: #000;
+	text-decoration: none;
+	transition: all 250ms;
+}
+
+.about.section .markdown.article .list li a:hover {
+	box-shadow: 0.15em 0.15em 0 0 #000;
+}
+
+.about.section .markdown.article .list li a:active {
+	box-shadow: none;
+}

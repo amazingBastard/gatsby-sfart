@@ -1,0 +1,66 @@
+/* projects list */
+.work.section .projects.list {
+	margin: 0 auto;
+	box-shadow: 0.5em 0.5em 0 0 #000;
+	background-color: #222;
+}
+
+/* project item */
+.work.section .projects.list .project.item {
+	display: flex;
+	flex: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (min-width: 48em) {
+	.work.section .projects.list .project.item {
+		width: 50%;
+	}
+
+	.work.section .projects.list .project.item:nth-child(1) {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 62em) {
+	.work.section .projects.list .project.item {
+		width: 25%;
+	}
+
+	.work.section .projects.list .project.item:nth-child(2),
+	.work.section .projects.list .project.item:nth-child(3) {
+		width: 50%;
+	}
+}
+
+.work.section .projects.list .project.item .project.link {
+	display: block;
+  border: 0.25em solid #222;
+	text-decoration: none;
+}
+
+.work.section .projects.list .project.item .project.link .title {
+	position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0.25em;
+  padding: 0.5em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+	text-align: right;
+	transition: all 250ms;
+}
+
+/* project link hover title state */
+.work.section .projects.list .project.item .project.link:hover .title {
+	color: #1ae21e;
+}
+
+/* project link title sub */
+.work.section .projects.list .project.item .project.link .title .sub {
+	color: #fff;
+}
